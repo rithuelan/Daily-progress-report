@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Learning Page</title>
+    <style>
+        body {
+            background-color: rgb(235, 233, 236);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .styled-text {
+            color: rgb(16, 203, 13);
+        }
+
+        .blue-text {
+            color: blue;
+        }
+
+        .custom-font {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+                'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>WELCOME!</h1>
+    <p>Hi, nice to meet you!</p>
+    <p>I am so happy to see you here. Let's explore our learning skills today.</p>
+
+    <a href="https://www.w3schools.com/" target="_blank">Here is where I am learning HTML</a>
+
+    <!-- Image Tag -->
+    <img src="assets/html-logo.png" alt="HTML LOGO" width="100" height="100">
+
+    <p>Hi <br> How are you?</p>
+
+    <!-- Styled Paragraph -->
+    <p class="styled-text">This is a colored and styled paragraph.</p>
+
+    <!-- Title Attribute Example -->
+    <p title="language">This is a title for the paragraph.</p>
+    <p title='title is "RITHU" for this paragraph'>This paragraph has a title attribute.</p>
+    <h2 title='John "ShotGun" Nelson'>Heading with Title</h2>
+
+    <hr>
+
+    <!-- Heading Tags -->
+    <h1>Halleyx</h1>
+    <h2>Halleyx</h2>
+    <h3>Halleyx</h3>
+    <h4>Halleyx</h4>
+    <h5>Halleyx</h5>
+    <h6>Halleyx</h6>
+
+    <!-- Inline Styling Example -->
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: large;">Hi</h1>
+
+    <hr>
+
+    <!-- Paragraph with Line Break -->
+    <p>
+        This website is only for reference to what I have learned today. It's not any official website. <br>
+        That's all about the paragraph tag in HTML.
+    </p>
+
+    <!-- HR Example -->
+    <p>This website is only for reference to what I have learned today. It's not any official.</p>
+    <hr>
+    <p>That's all about paragraph tags in HTML.</p>
+
+    <!-- Line Breaks -->
+    <p>Hi <br> How are you? <br> Nice to meet you.</p>
+
+    <!-- Poem Example -->
+    <pre>
+I think I will miss you forever, like
+a star misses the sun in the morning sky.
+Later is better than never,
+even if you're gone, I'm gonna drive alone.
+    </pre>
+
+    <hr>
+
+    <!-- Text Color Example -->
+    <h2 class="blue-text">Good Evening</h2>
+
+    <!-- Custom Font Style Example -->
+    <h2 class="custom-font">
+        We used font-family for changing the font style in this HTML file.
+    </h2>
+
+</body>
+</html>
