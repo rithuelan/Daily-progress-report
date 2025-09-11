@@ -27,3 +27,14 @@ updating every day's progress at my training at halleyx!
 - **Styles** in HTML *(some topics pending, will complete today)*  
 
 ---
+
+## **DAY 4** – Technical Learning 💻
+### **HTML Training**
+- Learned **text formatting of HTML**  
+- **Quotation and Citation Elements** in HTML  
+- **Comments** in HTML
+- **Styles - CSS**  
+- **Links** in HTML  
+- **Images** in HTML
+
+---
