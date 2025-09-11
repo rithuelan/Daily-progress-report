@@ -1,0 +1,155 @@
+<!------------------------------------------------------TEXT FORMATTING---------------------------------------------------------------------------------------------------------->
+<br>
+<!-- This is a text formatting -->
+
+<!--text bold-->
+<b>This is an bold charecter</b><br>
+
+<!--italic bold-->
+<i>This is an italic formatted text</i><br>
+
+<!--italic bold-->
+<strong>This is an strong text formatting technique</strong>
+
+<!--em tag-->
+<em>This is an em tag</em>
+
+<!--small tag-->
+<small>this is an small tag</small>
+
+<!--mark tag-->
+<p>this is an <mark>Mark tag</mark></p>
+
+<!--delete tag in html-->
+<p>this is an <del>deleted</del> tag</p>
+
+<!--insert tag in html-->
+<p>this is an <del>insert </del>tag<ins>we can insert here</ins></p>
+
+<!--sub tag in html-->
+<sub>This is an Sub tag </sub>
+
+<!--sup tag in html-->
+<sup>this is an super tag</sup>
+
+<!--------------------------------------------------------quotes--------------------------------------------------------------->
+<!--quotation tags-->
+<!--block quote-->
+<p>website for halleyx</p>                                                   //doubt
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    this is an official website for halleyx company.
+</blockquote>
+
+<p>this is an quotation tag<q>where we use q to make quatation</q></p>
+
+<!--abbr tag in html-->
+<p>this is <abbr title="abbr tags in html">which</abbr>was used to marking obrevation</p>
+
+<!--address tag in html-->
+<address>
+    4/11c pooja garden
+    civil aeorodrome
+    kaalapati, coimbature
+</address>
+
+<!--cite tag in html-->
+<p>the book named <cite> life of pi </cite>is an real story based a boy and tiger</p>
+
+<!--bdo tag in html-->
+<bdo dir="rtl">this text will be written from left to right format </bdo>
+
+<!-----------------------------------------------comments------------------------------------------------------------------------------------------->
+<!--paragraph tag is below-->
+<p> hii rithu, how are yo.</p>
+<!---paragraph ends here-->
+
+<!--to hide content using comment-->
+<p>first p tag</p>
+<!-- <p>this is another p tag</p> -->
+
+<!--hide inline content-->
+<p>  <!--write something here--> this is an paragraph tag</p>
+
+<!-------------------------------------------colors in html------------------------------------------------------>
+
+<p style="color: orange;">this is an colored paragraph </p>
+
+<!--background color-->
+<h1 style="background-color: blueviolet;">This is an colored heading</h1>
+<p style="background-color: blue;">this is n colored paragraph using color tag in html.this is n colored paragraph using color tag in html.this is n colored paragraph using color tag in html.this is n colored paragraph using color tag in html.this is n colored paragraph using color tag in html.</p>
+
+<!--text color-->
+<h2 style="color: rgb(58, 58, 19);">hiii, </h2>
+<h3 style="color: aqua;">hello welcome to my youtube channel</h3>
+
+<!--border color changing tag-->
+<h1 style="border:5px solid orange;">thi is an boredr changing tag</h1>
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+
+<!--colors-->
+<h1 style="color: rgb(16, 203, 13);">heloo</h1>
+<h2 style="color: #dedfde;">byeeee</h2>
+<h3 style="color: hwb(36 76% 9%);">hiiii</h3>
+<h3 style="color: hsl(36 76% 9%);">hiiii</h3>
+<h1 style="color: rgba(16, 203, 13);">heloo</h1>
+
+<!------------------------------------CSS IN HTML------------------------------------------------------------------------------------------->
+
+<!--inline css in html-->
+<h1 style="color: blue;">this is an style in html</h1>
+
+<!--internal css in html-->
+<!--in head of the html file-->
+
+
+<!--external css in html-->
+<!--it will be styled in style.css new style file-->
+
+<!-----------------------------LINKS IN HTML-------------------------------->
+<a href="https://github.com/rithuelan/Daily-progress-report">git link</a>
+
+<!--in same website-->
+<a href="https://github.com/rithuelan/Daily-progress-report" target="_self">open example </a>
+
+<!--no reference-->
+<a href="https://github.com/rithuelan/Daily-progress-report" target="_blank">open example </a><br>
+
+<!--new webpage-->
+<a href="https://github.com/rithuelan/Daily-progress-report" target="_top">open example </a><br>
+
+<!--link in button-->
+<button onclick="document.location='default.asp'"> url link button </button><br>
+
+<!--give title for the link-->
+<a href="https://github.com/rithuelan/Daily-progress-report" title="git link of rithu">open git </a>visit my website<br>
+
+<!--change color for the link and button-->
+<button style="color: rgb(21, 21, 162); background-color: rgb(91, 73, 105); " onclick="document.location='default.asp'"> url link button </button><br>
+
+<!-----------------------------BOOKMARK--------------------------------------------------------------------->
+
+<h2 id="C4">Chapter 4</h2>
+
+<!-----------------------------IMAGE--------------------------------------------------------------------->
+
+<img src="assets/html.logo" alt="html logo"><br>
+
+<!--size and width of image-->
+<img src="assets/html.logo" height="100" width="100"><br>
+
+<!--image in another folder-->
+<!--image in web-->
+
+<!--image as link-->
+<a href="default.asp">
+    <img src="assets/html.logo"><br>
+</a>
+
+<p><img src="assets/html.logo" alt="Smiley face" style="float:left;width:42px;height:42px;"><br>
+
+The image will float to the left of the text.</p>
+
+<!---image map-->
+<map name="office">
+<img src="assets/office.webp" alt="workplace" usemap="#office">
+</map>
