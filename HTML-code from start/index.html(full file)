@@ -10,10 +10,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TECHNICAL LEARNING-HTML</title>
+    <link rel="icon" type="image/png" href="assets/halleyx.logo.png">
     <link rel="stylesheet" href="style.css">
     <style>
         body {
+            background-image: url("assets/office.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             background-color: blueviolet;
             font-family: 'Times New Roman', Times, serif;
         }
@@ -108,9 +113,9 @@
 <!-- This is a bg color tag -->
 
 <body style="background-color:rgb(235, 233, 236);">
+<h1>Halleyx</h1>
+<p>This is a halleyx company logo.</p>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
 </body>
 
 <!-- This is a text color tag -->
@@ -134,7 +139,7 @@
 <!--italic bold-->
 <i>This is an italic formatted text</i><br>
 
-<!--italic bold-->
+<!--STRONG bold-->
 <strong>This is an strong text formatting technique</strong>
 
 <!--em tag-->
@@ -156,9 +161,9 @@
 <sub>This is an Sub tag </sub>
 
 <!--sup tag in html-->
-<sup>this is an super tag</sup>
+HTML<sup>this is an super tag</sup>
 
-<!--------------------------------------------------------quotes--------------------------------------------------------------->
+<!----------------------------------------------------quotation--------------------------------------------------------------->
 <!--quotation tags-->
 <!--block quote-->
 <p>website for halleyx</p>                                                   //doubt
@@ -169,7 +174,7 @@
 <p>this is an quotation tag<q>where we use q to make quatation</q></p>
 
 <!--abbr tag in html-->
-<p>this is <abbr title="abbr tags in html">which</abbr>was used to marking obrevation</p>
+<p>learning <abbr title="abbr tags in html"> which </abbr> was used to marking obrevation </p>
 
 <!--address tag in html-->
 <address>
@@ -272,13 +277,142 @@
 </a>
 
 <p><img src="assets/html.logo" alt="Smiley face" style="float:left;width:42px;height:42px;"><br>
-
 The image will float to the left of the text.</p>
 
-<!---image map-->
+<!-- Image Map Example -->
+<img src="assets/office.webp" usemap="#office" alt="Office Layout">
 <map name="office">
-<img src="assets/office.webp" alt="workplace" usemap="#office">
+  <!---Rectangle area -->
+  <area shape="rect" coords="50,50,150,150" 
+        href="https://www.bing.com/images/search?view=detailV2&ccid=HfKRI%2BKY&id=9FB7C64900073ED14E0B43F1698FD923B8588857&thid=OIP.HfKRI-KYFgwmWdq-FxFYKgHaE7&mediaurl=https%3A%2F%2Fofficebanao.com%2Fwp-content%2Fuploads%2F2023%2F09%2FOffice_Cabin_u03.jpg&exph=910&expw=1366&q=office&FORM=IRPRST&ck=0878687A6E91D9464B5C68D49777C227&selectedIndex=2" 
+        alt="Cabin">
+
+<!-- Circle area -->
+  <area shape="circle" coords="320,200,20" 
+        href="https://www.bing.com/images/search?view=detailV2&ccid=BvnEPfGt&id=2C9F80C666758407F3D801236B14A35A2907C4D9&thid=OIP.BvnEPfGt2zEIOXc6oYTJRwHaE8&mediaurl=https%3A%2F%2Fwww.formulainteriors.com.au%2Fwp-content%2Fuploads%2F2022%2F08%2Foffice-lounge-areas.jpg&exph=954&expw=1430&q=office&FORM=IRPRST&ck=8D6F79897C83C4E4CFE80AFF607D3E03&selectedIndex=5" 
+        alt="Lounge">
 </map>
+<p>this is how bg for single element work</p>
+
+<div style="width: 300px; height: 200px; 
+            background-image: url('assets/html.logo');
+            background-size: cover;     
+            background-repeat: no-repeat;
+            background-position: center;">
+            <h3 style="color: blueviolet; text-align: center;">This is html LOGO</h3>
+</div>
+
+<picture>
+    <source media="(min-width: 650)" srcset="office.webp">
+    <source media="(450)" srcset="html.logo">
+    <img src="assets/office.webp" alt="resposive picture" style="width: auto;">
+
+</picture>
+
+<!------TITLE IN HTML------------>
+
+<!------FAVICON-LOGO------------->
+
+<!------------------------------------------TABLES IN HTML------------------------------------------->
+
+<table style="color: #161816;">
+<caption>company details</caption>
+    <tr>
+        <th>company</th>
+        <th>contact</th>
+        <th>position</th>
+    </tr>
+    <tr>
+        <td>Halleyx</td>
+        <td>contact@halleyx.com</td>
+        <td>software developer</td>
+    </tr>
+    <tr>
+        <td>Innovaspace</td>
+        <td>contact@innovspace.com</td>
+        <td>software testing</td>
+    </tr>
+    <tr>
+        <td>cognizant</td>
+        <td>contact@cognizant</td>
+        <td>web developer</td>
+    </tr>
+</table>
+
+<table>
+<colgroup>
+<col style="background-color: bisque; width: 10px;">
+<col style="background-color: blanchedalmond;">
+<col span="2" style="background-color: #D6EEEE">
+<col span="3">
+<col span="1" style="visibility: collapse">
+<p>This is a <span style="color: red;">red word</span> in a sentence.</p>
+
+</colgroup>
+</table>
+
+<!----------------LIST IN HTML-------------------------------------->
+<ul style="list-style-type:disc;">
+    <li>software developer</li>
+    <li>testing</li>
+    <li>designer</li>
+</ul>
+<ol>
+    <li>software developer</li>
+    <li>testing</li>
+    <li>designer</li>
+</ol>
+
+<!--secription of list-->
+<dl>
+    <dt>position:</dt>            <!--description-->
+    <dd>testing</dd>             <!--term description-->
+</dl>
+
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<!--upper case ordered list-->
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<!--lower case ordered list-->
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<!-----------------------SPAN-TAGS-------------------------------------->
+<p>hi this is an pargraph tag</p>
+
+<div>hiiiii</div>
+
+<p this is <span style="color: aqua;"> span tag </span> inside a pargraph</p>
+
+<!-------------------------DIV TAG IN HTML--------------------------------->
+this is an <div style="color: brown;">div tag</div>in html
+
+<!--div as container-->
+<div>
+    <h2>div tag</h2>
+    <p>this is an div tag in html</p>
+</div>
+
+
 
 <!-- This is a end tag -->
 </body>
