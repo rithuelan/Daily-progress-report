@@ -38,3 +38,31 @@ updating every day's progress at my training at halleyx!
 - **Images** in HTML
 
 ---
+## **DAY 5** – Technical Learning 💻
+### **HTML Training**
+- Learned **Links(today)**  
+- **Images** in HTML  
+- **Favicon** in HTML
+- **Tables**  
+- **lists** in HTML  
+- **Block and Inline Elements** in HTML
+- **Div Element** in HTML
+-- **semantic tags** in HTML
+
+   
+---
+
+
+## **DAY 6** – Technical Learning 💻
+### **HTML Training**
+- Learned **iframes of HTML**  
+- **java script** in HTML  
+- **File Paths** in HTML
+- **Responsive Web Design**   
+- **Layout** in HTML
+- **File Paths**
+- - **entities and encoding** in HTML
+- **graphics and media** in HTML
+
+-  
+---
