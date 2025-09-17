@@ -48,7 +48,6 @@ updating every day's progress at my training at halleyx!
 - **Block and Inline Elements** in HTML
 - **Div Element** in HTML
 -- **semantic tags** in HTML
-
    
 ---
 
@@ -61,8 +60,7 @@ updating every day's progress at my training at halleyx!
 - **Responsive Web Design**   
 - **Layout** in HTML
 - **File Paths**
-- - **entities and encoding** in HTML
+- **entities and encoding** in HTML
 - **graphics and media** in HTML
 
--  
 ---
