@@ -1,0 +1,155 @@
+<!------------------------------------------------------16-09-2025------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNICAL LEARNING-HTML</title>
+    <link rel="icon" type="image/png" href="assets/halleyx.logo.png">
+
+
+<!-------------------------js in html---------------------------------------------------->
+<h2 id="demo">Hello js</h2>
+<script>
+document.getElementById("demo").innerHTML = "hello world!";
+</script>
+
+<!----js in html with style------->
+<script>
+document.getElementById("demo").style.fontSize="25px";
+document.getElementById("demo").style.alignItems="centre";
+document.getElementById("demo").style.color="red";
+document.getElementById("demo").style.backgroundColor="yellow";
+
+document.getElementById("image").src="office.webp";
+
+</script>
+
+<noscript>
+    Sorry, your browser does not support JavaScript or it’s disabled. 😔
+</noscript>
+
+
+<!--date and time program using js-->
+<h1>View Date & Time </h1>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click here to view date and time</button>
+
+<p id="demo"></p>
+
+<!--image using js-->
+<img id="image" src="office.webp" alt="office image" width="300px">
+<script>
+function showImage() {
+    document.getElementById("image").src = "office.webp";
+}
+</script>
+
+<!---------------------layouts in HTML------------------------------------->
+
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>This is the main content.</p>
+    </section>
+    
+    <aside>
+      <h3>Sidebar</h3>
+      <p>Extra info or ads</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+
+<!---------------------------------------RESPONSIVE WEBDESIGN---------------->
+<img src="assets/OIP.webp" alt="comapny pic" width="100%">
+
+<img src="assets/OIP.webp" alt="comapny pic" style="max-width: 100%;height: auto;">
+
+<!---entities-->
+    <h5>copyright served: &copy;</h5>
+    <h6>copyright reserved: &#174;</h6>
+
+<!--footer tag in html  -->    
+<footer>
+    <h4>@rithu_elan</h4>
+    <h5>copyright served: &copy;</h5>
+</footer>
+
+<!---------URL in HTML------------->
+
+<a href="https://flipkart.com">Go to Flipkart (HTTPS)</a><br>
+
+<a href="http://example.com">Visit Example (HTTP)</a><br>
+
+<a href="ftp://ftp.example.com/file.zip">Download via FTP</a><br>
+
+<!----------------------------------FORMS IN HTML------------------------------>
+
+<!--------FORMS with url IN HTML---------->
+<form action="https://flipkart.com" method="get" >
+    <label for="username">Enter username:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="mail ID">Enter mail ID:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="password">Enter your password: </label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <button type="submit" >submit</button>
+
+</form>
+
+<!------------------------------GRAPHICS IN HTML----------------------------->
+<!--SIMPLE WAY-->
+<img src="assets/OIP.webp" style="border: 20px;" width="100px" height="100px"><br>
+
+<!--USING CANVAS-->
+<canvas id="canva" width="300" height="150" style="border:1px solid rgb(218, 16, 16);"></canvas>
+
+<script>
+    let c= document.getElementById("canva");
+    ctx.fillRect(50, 50, 150, 75);
+    let ctx= c.getContext("2d");
+</script>
+
+<!--without image graphics-->
+<div style="width:100px;height:100px;background:red;border-radius:50%;"></div>
+
+<img src="assets/rectangle.svg" alt="Shapes" width="100px" height="100px"><br>
+
+<!-----------------------------Media in html----------------------------------->
+
+<!--youtube video-->
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/Ld0OtEhX_7I">
+</iframe>
+<!--audio tag-->
+  <audio controls>
+    <source src="assets/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    <source src="assets/SoundHelix-Song-1.mp3" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+<!--video tag-->
+  <video width="400" controls>
+  <source src="assets/mov_bbb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<!-- This is a end tag -->
+</body>
+</html>
